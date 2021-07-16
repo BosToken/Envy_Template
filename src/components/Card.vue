@@ -1,5 +1,8 @@
 <template>
   <div>
+      <body>
+          
+      
       <div class="row mt-4">
         <div class="col">
           <h2>
@@ -11,7 +14,7 @@
       <div class="row mb-3">
         <div class="col-md-3 mt-4">
           <div class="card">
-            <img src="../assets/design/beast.png" alt="" />
+            <img class = "card-img-top" src="../assets/design/beast.png" alt="" />
             <div class="card-body">
               <div class="card-title">
                 <h5>The Beast</h5>
@@ -29,7 +32,7 @@
         </div>
         <div class="col-md-3 mt-4">
           <div class="card">
-            <img src="../assets/design/redliquid.png" alt="" />
+            <img class = "card-img-top" src="../assets/design/redliquid.png" alt="" />
             <div class="card-body">
               <div class="card-title">
                 <h5>RED LIQUID</h5>
@@ -47,7 +50,7 @@
         </div>
         <div class="col-md-3 mt-4">
           <div class="card">
-            <img src="../assets/design/blackjoke.png" alt="" />
+            <img class = "card-img-top" src="../assets/design/blackjoke.png" alt="" />
             <div class="card-body">
               <div class="card-title">
                 <h5>BLACK JOKE</h5>
@@ -65,7 +68,7 @@
         </div>
         <div class="col-md-3 mt-4">
           <div class="card">
-            <img src="../assets/design/heretic.png" alt="" />
+            <img class = "card-img-top" src="../assets/design/heretic.png" alt="" />
             <div class="card-body">
               <div class="card-title">
                 <h5>HERETIC</h5>
@@ -82,6 +85,7 @@
           </div>
         </div>
       </div>
+      </body>
   </div>
 </template>
 

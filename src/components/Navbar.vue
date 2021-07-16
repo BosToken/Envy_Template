@@ -20,13 +20,18 @@
               <router-link class="nav-link" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/Login">
-                SignUp/SignIn
+              <router-link class="nav-link" to="/Product">
+                Product
               </router-link>
             </li>
           </ul>
 
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <router-link class="nav-link" to="/Login">
+                SignUp/SignIn
+              </router-link>
+            </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/">
                 Cart

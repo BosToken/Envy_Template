@@ -6,10 +6,22 @@
     font-weight: bold;
 }
 
-.btn-dark{
+.btn-dark {
     background-color: black;
 }
 
-.badge-dark{
+.badge-dark {
     background-color: black;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.navbar{
+    top: 5px;
 }
