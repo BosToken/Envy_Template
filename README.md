@@ -1,4 +1,4 @@
-# vue_learn
+# Envy_Template
 
 ## Project setup
 ```
