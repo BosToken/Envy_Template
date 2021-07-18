@@ -33,7 +33,7 @@
         <div class="col-md-6">
           <h2><strong>Baju Tidur</strong></h2>
           <hr />
-          <h4>Price : <strong>RP. 105.000</strong></h4>
+          <h4>Price : RP. <strong>105.000</strong></h4>
           <form>
             <div class="mb-3">
               <label for="value">Value</label>

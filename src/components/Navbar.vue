@@ -33,7 +33,7 @@
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/">
+              <router-link class="nav-link" to="/Cart">
                 Cart
                 <b-icon-bag></b-icon-bag>
                 <span class="badge badge-dark ml-2">0</span>
