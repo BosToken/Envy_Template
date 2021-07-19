@@ -11,7 +11,7 @@
                 <h4>best style</h4>
                 <router-link to="/product">
                   <button class="btn btn-lg btn-dark">
-                    <b-icon-arrow-return-right></b-icon-arrow-return-right> More
+                    <b-icon-arrow-right></b-icon-arrow-right> More
                   </button>
                 </router-link>
               </div>

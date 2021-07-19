@@ -15,7 +15,7 @@
                 >
               </li>
               <li class="breadcrumb-item">
-                <router-link to="/detail" class="text-dark">Cart</router-link>
+                <router-link to="/cart" class="text-dark">Cart</router-link>
               </li>
             </ol>
           </nav>
@@ -49,7 +49,7 @@
                    <br>
                    <br>
                   <router-link to="/" class="btn btn-danger">
-                    <b-icon-minus></b-icon-minus>
+                    <b-icon-trash></b-icon-trash>
                     Remove
                   </router-link>
                 </td>
@@ -76,9 +76,24 @@
                    <br>
                    <br>
                   <router-link to="/" class="btn btn-danger">
-                    <b-icon-minus></b-icon-minus>
+                    <b-icon-trash></b-icon-trash>
                     Remove
                   </router-link>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td>
+                  Total : RP. <strong>280.000</strong> <br />
+                </td>
+                <td>
+                  <router-link to="/checkout" class="btn btn-success">
+                    <b-icon-cart></b-icon-cart>
+                    Pay
+                  </router-link>
+                   <br>
+                   <br>
                 </td>
               </tr>
             </tbody>

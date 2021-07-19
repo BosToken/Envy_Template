@@ -36,7 +36,7 @@
               <router-link class="nav-link" to="/Cart">
                 Cart
                 <b-icon-bag></b-icon-bag>
-                <span class="badge badge-dark ml-2">0</span>
+                <span class="badge badge-dark ml-2">2</span>
               </router-link>
             </li>
           </ul>
