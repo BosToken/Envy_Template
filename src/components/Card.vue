@@ -1,12 +1,10 @@
 <template>
   <div>
-      <body>
-          
-      
+    <body>
       <div class="row mt-4">
         <div class="col">
           <h2>
-            <strong>Choose Design</strong>
+            <div class="font-size-a">Choose Design</div>
           </h2>
         </div>
       </div>
@@ -14,7 +12,7 @@
       <div class="row mb-3">
         <div class="col-md-3 mt-4">
           <div class="card">
-            <img class = "card-img-top" src="../assets/design/beast.png" alt="" />
+            <img class="card-img-top" src="../assets/design/beast.png" alt="" />
             <div class="card-body">
               <div class="card-title">
                 <h5>The Beast</h5>
@@ -32,7 +30,11 @@
         </div>
         <div class="col-md-3 mt-4">
           <div class="card">
-            <img class = "card-img-top" src="../assets/design/redliquid.png" alt="" />
+            <img
+              class="card-img-top"
+              src="../assets/design/redliquid.png"
+              alt=""
+            />
             <div class="card-body">
               <div class="card-title">
                 <h5>RED LIQUID</h5>
@@ -50,7 +52,11 @@
         </div>
         <div class="col-md-3 mt-4">
           <div class="card">
-            <img class = "card-img-top" src="../assets/design/blackjoke.png" alt="" />
+            <img
+              class="card-img-top"
+              src="../assets/design/blackjoke.png"
+              alt=""
+            />
             <div class="card-body">
               <div class="card-title">
                 <h5>BLACK JOKE</h5>
@@ -68,7 +74,11 @@
         </div>
         <div class="col-md-3 mt-4">
           <div class="card">
-            <img class = "card-img-top" src="../assets/design/heretic.png" alt="" />
+            <img
+              class="card-img-top"
+              src="../assets/design/heretic.png"
+              alt=""
+            />
             <div class="card-body">
               <div class="card-title">
                 <h5>HERETIC</h5>
@@ -85,16 +95,34 @@
           </div>
         </div>
       </div>
-      </body>
+
+      <br />
+      <div class="row mb-4">
+        <div class="col">
+          <span
+            class="d-block p-2 text-white w-100 p-3 h-40"
+            style="background-color: black"
+          >
+            <center>
+              <h1>GET DISCOUNT</h1>
+              <h1>80 %</h1>
+              <button class="btn btn-outline-light" type="submit">
+                <b-icon-instagram></b-icon-instagram>
+                GET START
+              </button>
+            </center>
+          </span>
+        </div>
+      </div>
+    </body>
   </div>
 </template>
 
 <script>
 export default {
-name: 'Card'
-}
+  name: "Card",
+};
 </script>
 
 <style>
-
 </style>

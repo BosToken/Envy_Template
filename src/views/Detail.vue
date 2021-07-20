@@ -43,13 +43,19 @@
               <label for="value">Note</label>
               <textarea class="form-control" placeholder="Note..."></textarea>
             </div>
-            <button type="submit" class="btn btn-success">
-              <b-icon-plus></b-icon-plus> Add To Cart
-            </button>
+
+            <router-link to="/cart">
+              <button type="submit" class="btn btn-success">
+                <b-icon-plus></b-icon-plus> Add To Cart
+              </button>
+            </router-link>
+
             <br /><br />
-            <button type="submit" class="btn btn-dark">
-              <b-icon-cart></b-icon-cart> Buy
-            </button>
+            <router-link to="/cart">
+              <button type="submit" class="btn btn-dark">
+                <b-icon-cart></b-icon-cart> Buy
+              </button>
+            </router-link>
           </form>
         </div>
       </div>

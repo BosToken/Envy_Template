@@ -7,8 +7,8 @@
           <div class="col-md-6">
             <div class="d-flex h-100">
               <div class="justify-content-center align-self-center">
-                <h2><strong>Show up your,</strong><br /></h2>
-                <h4>best style</h4>
+                <div class="font-size-a">Show Up Your,</div>
+                <div class="font-size-b">Best Style</div>
                 <router-link to="/product">
                   <button class="btn btn-lg btn-dark">
                     <b-icon-arrow-right></b-icon-arrow-right> More
